@@ -1,17 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:gravity="center"
     android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textId"
-        android:textSize="24sp"
-        android:textColor="#000000"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textId"
+                android:textSize="24sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:hint="Nombre"/>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textTitulo"
+                android:layout_below="@+id/textId"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:textColor="#000000"
+                android:hint="Titulo"
+                android:textSize="24sp"/>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textLugar"
+                android:layout_below="@+id/textTitulo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:textColor="#000000"
+                android:hint="Lugar"
+                android:textSize="24sp"/>
 
-</LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textColor"
+                android:layout_below="@+id/textLugar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:textColor="#000000"
+                android:hint="Color"
+                android:textSize="24sp"/>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:id="@+id/imgPlaneta"
+                android:layout_below="@+id/textColor"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

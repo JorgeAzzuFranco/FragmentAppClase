@@ -12,4 +12,42 @@
         <item>Uranus</item>
         <item>Neptune</item>
     </string-array>
+
+    <string-array name="titlePlaneta">
+        <item>Nuestra Estrella</item>
+        <item>El pequeño velocista</item>
+        <item>Hermano de la tierra</item>
+        <item>Nuestra casa</item>
+        <item>El planeta rojo</item>
+        <item>El gigante</item>
+        <item>Anillos brillantes</item>
+        <item>Gigante helado</item>
+        <item>El planeta azul</item>
+    </string-array>
+
+    <string-array name="lugarSolar">
+        <item>Punto de referencia</item>
+        <item>Lugar en el sistema: primero</item>
+        <item>Lugar en el sistema: segundo</item>
+        <item>Lugar en el sistema: tercero</item>
+        <item>Lugar en el sistema: cuarto</item>
+        <item>Lugar en el sistema: quinto</item>
+        <item>Lugar en el sistema: sexto</item>
+        <item>Lugar en el sistema: septimo</item>
+        <item>Lugar en el sistema: octavo</item>
+
+    </string-array>
+
+    <string-array name="colorPlaneta">
+        <item>Color: Amarillo</item>
+        <item>Color: Dorado</item>
+        <item>Color: Dorado rojizo</item>
+        <item>Color: Azul y verde</item>
+        <item>Color: Rojizo</item>
+        <item>Color: Beige con anillos rojizos</item>
+        <item>Color: Beige</item>
+        <item>Color: Celeste</item>
+        <item>Color: Azul</item>
+    </string-array>
+
 </resources>
