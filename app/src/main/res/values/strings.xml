@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">FragmentApp</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_titulo">Titulo</string>
+    <string name="hint_lugar">Lugar</string>
+    <string name="hint_color">Color</string>
 
     <string-array name="Planets">
         <item>Sun</item>

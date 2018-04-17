@@ -14,7 +14,7 @@
         android:textSize="24sp"
         android:layout_centerHorizontal="true"
         android:textColor="#000000"
-        android:hint="Nombre"/>
+        android:hint="@string/hint_nombre"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
         android:layout_below="@+id/textId"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="4dp"
-        android:hint="Titulo"
+        android:hint="@string/hint_titulo"
         android:textSize="24sp"/>
 
     <TextView
@@ -33,7 +33,7 @@
         android:layout_below="@+id/textTitulo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="4dp"
-        android:hint="Lugar"
+        android:hint="@string/hint_lugar"
         android:textSize="24sp"/>
 
     <TextView
@@ -43,14 +43,15 @@
         android:layout_below="@+id/textLugar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="4dp"
-        android:hint="Color"
+        android:hint="@string/hint_color"
         android:textSize="24sp"/>
 
     <ImageView
         android:layout_width="250dp"
         android:layout_height="250dp"
+        android:id="@+id/imgPlaneta"
         android:layout_below="@+id/textColor"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
